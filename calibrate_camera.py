@@ -1,9 +1,9 @@
+# mainly copied from https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html
 import cv2
 import numpy as np
 import glob
 import json
 from typing import Tuple
-import sys
 import argparse
 
 def calculate_camera_calibration_matrix(
